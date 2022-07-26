@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Lato:wght@300&family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.heading-container {
+    font-family: 'bangers';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    color:rgb(220, 0, 220);
+    text-shadow: 1px 1px 2px black;
+    max-width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 40px;
+    background: #fff;
+    color:rgb(220, 0, 220);
+    text-shadow: 1px 1px 2px black;
+    max-width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.score {
+    font-family: 'Bangers';
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.score-number {
+    color:rgb(0, 255, 13);
+    margin-left: 10px;
+    font-size: 2.2rem;
+}
+
+.questions-container-A {
+    display: grid;
+    grid-template-columns: 75% 10% 15%;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    background: rgb(63, 0, 0);
+    color: #fff;
+    font-family: 'Carter One';
+    max-width: 400px;
+    height: 60px;
+}
+
+.questions-container-B {
+    display: grid;
+    grid-template-columns: 75% 10% 15%;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    background: rgb(63, 0, 0);
+    color: #fff;
+    font-family: 'Carter One';
+    max-width: 400px;
+    height: 60px;
+}
+
+.questions-container-C {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    background: rgb(63, 0, 0);
+    color: #fff;
+    font-family: 'Carter One';
+    max-width: 400px;
+    height: 50px;
+}
+
+.names-jack {
+    font-family: 'Bangers';
+    font-size: 1.3rem;
+    color: rgb(0, 183, 255);
+    margin-right: 10px;
+    text-shadow: 1px 1px 10px black;
+}
+
+.names-ana {
+    font-family: 'Bangers';
+    font-size: 1.3rem;
+    color: rgb(255, 251, 0);
+    margin-right: 10px;
+    text-shadow: 1px 1px 10px black;
+}
+.line-A {
+    font-size: 0.9em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+    height: 40px
+}
+
+.buttons-container-A {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 400px;
+    height: 45px;
+    margin:0px auto;
+    background: rgb(63, 0, 0);
+    border-bottom: 1px solid rgb(63, 61, 31);
+}
+
+.buttons-container-B {
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    max-width: 400px;
+    height: 45px;
+    margin:0px auto;
+    background: rgb(63, 0, 0);
+    border-bottom: 1px solid rgb(63, 61, 31);
+}
+
+.buttons {
+    cursor: pointer;
+    font-family: 'Carter One';
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 20px;
+    align-items: center;
+    background-color: rgb(0, 156, 177);
+    color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    border: 1px solid white;
+    box-shadow: inset 2px 2px 10px black;
+      }
+      
+.buttons:hover {
+    transform: scale(1.05);
+    color: #fff;
+    background-color: rgb(0, 255, 21);
+    color: black;
+    }
+
+.words {
+    color:rgb(0, 255, 13);
+    font-size: 1rem;
+    margin-right: 5px;
+    Margin-left: 5px
+}
+
+.like {
+    display: flex;
+    width: 50px;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
+.not-good {
+    display: flex;
+    width: 50px;
+    margin-bottom: 5px;
+    visibility: hidden;
+}
